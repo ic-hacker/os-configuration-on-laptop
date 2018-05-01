@@ -1,0 +1,14 @@
+#+TITLE: *OS*-~Configuration~-/on/-*Laptop*
+
+* Introduction
+  This repo is all *OS configuration* files collection on my Laptop.
+
+** Content 
+   - Xdefault
+   - Xresource
+
+   - Xmodmap
+
+   - Xinitrc
+   - Xprofile
+   - Zshrc

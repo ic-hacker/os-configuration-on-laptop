@@ -74,10 +74,10 @@ alias gp11='g++ -std=c++11 -Wall -Os'
 alias gp14='g++ -std=c++14 -Wall -Os'
 alias gp17='g++ -std=c++17 -Wall -Os'
 
-alias g3compile='gcc `pkg-config --cflags gtk+-3.0 --libs gtk+-3.0` -Wall -Os'
+alias g3compile='gcc `pkg-config --cflags gtk+-3.0 --libs gtk+-3.0` -Wall -Wextra -Os'
 alias c3compile='clang `pkg-config --cflags gtk+-3.0 --libs gtk+-3.0` -Wall -Os'
 alias gp3compile='g++ `pkg-config gtkmm-3.0 --cflags --libs`'
-alias gcglfw='gcc -std=c11  `pkg-config --cflags glfw3 glu` `pkg-config --static --libs glfw3` `pkg-config --libs glu`'
+alias gcglfw='gcc -std=c11 -Wall -Wextra -Os `pkg-config --cflags glfw3 glu` `pkg-config --static --libs glfw3` `pkg-config --libs glu`'
 
 alias vleakshow='valgrind --leak-resolution=high --leak-check=full --show-reachable=yes --show-emwarns=yes --show-mismatched-frees=yes --show-below-main=yes --track-origins=yes -v'
 
